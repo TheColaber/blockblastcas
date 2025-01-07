@@ -8,15 +8,16 @@ At the current moment, our plan is to recreate this game using Pygame in the Pyt
 
 # Development
 
-- Github Desktop (https://desktop.github.com/download/)
-- Visual Studio Code (https://code.visualstudio.com/)
+preferred development tools:
+- [Github Desktop](https://desktop.github.com/download/)
+- [Visual Studio Code](https://code.visualstudio.com/)
     - Extensions within VS Code:
-        1. Live Share (https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare) - for live collaboration
-        2. Python (https://marketplace.visualstudio.com/items?itemName=ms-python.python) - for python compatibility
-        3. Python Debugger (https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy) - for python compatibility
-        4. Pylance (https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) - for python compatibility
-- Python (https://www.python.org/downloads/)
-- Pygame (download by using command in terminal):
+        a. [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare) - for live collaboration
+        b. [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - for python compatibility
+        c. [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy) - for python compatibility
+        d. [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) - for python compatibility
+- [Python](https://www.python.org/downloads/)
+- [Pygame](download by using command in terminal):
 ```bash
 python3 -m pip install pygame
 ```

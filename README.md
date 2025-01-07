@@ -17,7 +17,7 @@ preferred development tools:
         3. [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy) - for python compatibility
         4. [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) - for python compatibility
 - [Python](https://www.python.org/downloads/)
-- [Pygame](download by using command in terminal):
+- Pygame (download by using command in terminal):
 ```bash
 python3 -m pip install pygame
 ```

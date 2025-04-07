@@ -1,0 +1,32 @@
+i want to make a game with pygame where there is an 8x8 grid.
+the user is given three blocks that they must drag into the grid and place in areas that are not already covered by blocks.
+these three blocks should be located to the right of the grid and should not overlap other blocks and should not overlap the grid.
+grid snapping should reference the user's mouse position relative to the block to ensure accurate placement.
+a block ghost preview should appear where the block would land, snapping to the grid, and should not show in invalid positions.
+if blocks are dragged to invalid positions, they should go back to their first spot.
+when a row/column is completely full, the row is deleted.
+rows above should not shift down.
+the row should have a ripple delete animation when it is cleared.
+after all three blocks have been placed, a new three blocks are provided.
+these three blocks should be completely random from all possible blocks and orientations, but should not repeat the same type of block.
+the user loses when they are unable to place any of the blocks in their hand.
+
+possible blocks:
+1x3
+1x4
+1x5
+2x2
+2x3
+3x3
+Z shape (2x3)
+L shape (2x3)
+L shape (3x3)
+T shape (2x3)
+Each block type has 4 fixed possible orientations that are randomly selected when the block is generated and they cannot be rotated.
+blocks are random colors from a set of bright color options.
+
+scoring:
+your score is also increased by the (# of rows cleared)^2 * multiplier * 10 + (# of cells in placed block)
+
+you keep your multiplier streak if you clear a row within three moves after your last row cleared.
+the streak increases per number of rows cleared.

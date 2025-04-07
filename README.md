@@ -1,30 +1,23 @@
-# Block Blast python3.11 main.py
+# Block Blast CAS Project
 
-A pygame-based puzzle game where you place blocks on an 8x8 grid to clear rows.
+by: Daniel, Ishaan, Javier, Siddharth, Anshul
 
-## Game Rules
-- You have three random blocks to place on the grid
-- Blocks must be placed in valid positions (not overlapping existing blocks or outside the grid)
-- When a row or column is completely filled, it gets cleared (with a cool ripple animation!)
-- Rows above do not shift down when a row is cleared
-- You lose when you can't place any of your blocks
-- Score increases based on blocks placed and rows cleared
-- Maintain a multiplier streak by clearing rows within three moves
+This goal of this of this project is to recreate a popular mobile game, Block Blast. To satisfy the requirement of adding global engagement, this game will include informational aspects that will replace the ads that appear in the game. The aim of this recreation is not for any type of monetary gain, but rather for learning and educational purposes. Part of the IB curriculum includes completing a CAS Project which requires collaboration between individuals completing one of the strands of CAS. Our project will complete the Creative strand and we intend to gather valuable experience from the skills we learn that involve this recreation.
 
-## Controls
-- Click and drag blocks to place them on the grid
-- A ghost preview shows where the block will be placed
-- Invalid placements return blocks to their original position
+At the current moment, our plan is to recreate this game using Pygame in the Python programming language. This may change, but this is our current plan. This means that this recreation will only be able to be played on computers, not mobile phones.
 
-## Setup
-1. Install the required packages:
+# Development
+
+preferred development tools:
+- [Github Desktop](https://desktop.github.com/download/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+    - Extensions within VS Code:
+        1. [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare) - for live collaboration
+        2. [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - for python compatibility
+        3. [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy) - for python compatibility
+        4. [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) - for python compatibility
+- [Python](https://www.python.org/downloads/)
+- Pygame (download by using command in terminal):
+```bash
+python3 -m pip install pygame
 ```
-pip install -r requirements.txt
-```
-
-2. Run the game:
-```
-python main.py
-```
-
-Enjoy the game! 
